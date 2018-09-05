@@ -32,7 +32,7 @@ class Game
         #length
         answer1 = Faker::RickAndMorty.character
         answer2 = answer1.length
-        puts Rainbow("How many characters in #{answer1} (including spaces)?").green
+        puts Rainbow("How many characters are in #{answer1} (including spaces)?").green
         if STDIN.gets.chomp.to_i == answer2
             player.win
         elsif player.lose
@@ -42,7 +42,7 @@ class Game
         #count vowels
         answer1 = Faker::RickAndMorty.character
         answer2 = answer1.length
-        puts Rainbow("how many vowels in #{answer1}?").green
+        puts Rainbow("How many vowels are in #{answer1}?").green
         answer2 = answer1.scan(/[AaEeOoUuIi]/).count
         if STDIN.gets.chomp.to_i == answer2
             player.win
@@ -67,11 +67,7 @@ class Game
             puts "It took you " + Rainbow("#{player.speed.round}").violet + " second(s)"
         end
     end
-    def winner
-        #if num_players > 1
-        # puts "winner choses who drinks the next glass"
-        #else
-        #puts "Playing alone, drink all you want buddy!"        
+    def winner       
         @players.sort_by! do |player|
             [-player.points, player.speed]
         end
