@@ -26,7 +26,7 @@ correct
 ![Image of Brainstorm Notes](https://github.com/jamesphongduong/terminal/blob/master/images/Brainstorm%20ideas.png)
 ### App User/Workflow diagram
 ![Image of Workflow Diagram](https://github.com/jamesphongduong/terminal/blob/master/images/Workflow%20Diagram.png)
-### Project plan & timeline
+### Project Plan & Timeline
 #### Day 1.
 Brainstorm application ideas and discuss and decide the best idea, i.e. simple to implement, but also can utilize our learnings of classes.
 

@@ -25,7 +25,7 @@ class Game
         #reverse
         answer1 = Faker::RickAndMorty.character.downcase
         answer2 = answer1.reverse
-        puts Rainbow("write #{answer1} backwards ").green
+        puts Rainbow("Write #{answer1} backwards").green
         if STDIN.gets.chomp == answer2
             player.win
         elsif player.lose
@@ -35,7 +35,7 @@ class Game
         #length
         answer1 = Faker::RickAndMorty.character
         answer2 = answer1.length
-        puts Rainbow("how many characters in #{answer1} (including spaces)?").green
+        puts Rainbow("How many characters in #{answer1} (including spaces)?").green
         if STDIN.gets.chomp.to_i == answer2
             player.win
         elsif player.lose
@@ -68,8 +68,11 @@ class Game
         end
     end
     def winner
+        #if num_players > 1
         @players.sort_by! do |player|
             [-player.points, player.speed]
+            #puts 'Winner chooses a fitting punishment for the group'
+        #else num_players <= 
         end
         winning_player = @players[0]
         puts "#{winning_player.name} won with #{winning_player.points} points at a speed of #{winning_player.speed.round} seconds!"
