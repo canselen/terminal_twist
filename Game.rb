@@ -1,8 +1,8 @@
-require 'artii'
 require 'faker'
 require 'rainbow'
 require_relative 'player'
 
+#STDIN - standard input from console
 class Game
     def initialize
         @players = []
@@ -10,9 +10,6 @@ class Game
         num_players = STDIN.gets.chomp.to_i
         (num_players).times do |number| 
             addPlayer(number + 1)
-        # if num_players == 0
-        #     return
-        # end
         end
     end
     def addPlayer(number)
@@ -22,7 +19,6 @@ class Game
         @players << player
     end
     def question_reverse(player)
-        #reverse
         answer1 = Faker::RickAndMorty.character.downcase
         answer2 = answer1.reverse
         puts Rainbow("Write #{answer1} backwards").green
@@ -52,6 +48,7 @@ class Game
         elsif player.lose
         end
     end
+
 # # putting methods in array, and call them randomly
 @@methods = %i[question_count question_length question_reverse]
     def play
@@ -63,19 +60,18 @@ class Game
             end_time = Time.now
             player.speed = (end_time - start_time)
             puts "Thanks for playing " + Rainbow("#{player.name}").deepskyblue
-            puts "Your total points:" + Rainbow("#{player.points}").skyblue
-            puts "It took you " + Rainbow("#{player.speed.round}").violet + " seconds"
+            puts "Your total points: " + Rainbow("#{player.points}").skyblue
+            puts "It took you " + Rainbow("#{player.speed.round}").violet + " second(s)"
         end
     end
     def winner
         #if num_players > 1
         @players.sort_by! do |player|
             [-player.points, player.speed]
-            #puts 'Winner chooses a fitting punishment for the group'
-        #else num_players <= 
         end
         winning_player = @players[0]
-        puts "#{winning_player.name} won with #{winning_player.points} points at a speed of #{winning_player.speed.round} seconds!"
+        puts ""
+        puts Rainbow("#{winning_player.name} won with #{winning_player.points} points at a speed of #{winning_player.speed.round} seconds!").green
     end
 end
 

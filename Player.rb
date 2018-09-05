@@ -1,4 +1,5 @@
 require 'rainbow'
+
 class Player 
    attr_accessor :name, :points, :speed
     def initialize(name)
