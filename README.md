@@ -20,6 +20,9 @@ How many vowels are in Rick Sanchez?
 correct
 ```
 ### Screenshots
+![Game1](https://github.com/jamesphongduong/terminal/blob/master/images/Game%201.png)
+![Game2](https://github.com/jamesphongduong/terminal/blob/master/images/Game%202.png)
+![Game3](https://github.com/jamesphongduong/terminal/blob/master/images/Game%203.png)
 
 ## Details of design & planning process
 ### Evidence of app idea brainstorming sessions
@@ -39,3 +42,5 @@ Add extra features on the application, making cosmetic changes, implementing mor
 
 ### Screenshots of Trello Board(s)
 ![Trello Board](https://github.com/jamesphongduong/terminal/blob/master/images/Trello.png)
+
+![Trello Board Tabs](https://github.com/jamesphongduong/terminal/blob/master/images/Trello2.png)
