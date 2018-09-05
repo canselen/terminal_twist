@@ -19,6 +19,7 @@ class Game
         @players << player
     end
     def question_reverse(player)
+
         answer1 = Faker::RickAndMorty.character.downcase
         answer2 = answer1.reverse
         puts Rainbow("Write #{answer1} backwards").green
@@ -56,6 +57,8 @@ class Game
             puts Rainbow("Your turn").darkgoldenrod + Rainbow(" #{player.name}").deepskyblue
             puts Rainbow("Game on!").darkgoldenrod
             start_time = Time.now
+            #sample chooses random array element
+            #send is a method invoking anonther methof
             5.times {send @@methods.sample, player}
             end_time = Time.now
             player.speed = (end_time - start_time)
@@ -66,6 +69,9 @@ class Game
     end
     def winner
         #if num_players > 1
+        # puts "winner choses who drinks the next glass"
+        #else
+        #puts "Playing alone, drink all you want buddy!"        
         @players.sort_by! do |player|
             [-player.points, player.speed]
         end

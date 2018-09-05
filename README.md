@@ -43,3 +43,7 @@ Add extra features on the application, making cosmetic changes, implementing mor
 ### Screenshots of Trello Board(s)
 ![Trello Board](https://github.com/jamesphongduong/terminal/blob/master/Resources/Trello.png)
 ![Trello Board Tabs](https://github.com/jamesphongduong/terminal/blob/master/Resources/Trello2.png)
+
+### Completed by
+- James Duong
+- Sinan Canselen
