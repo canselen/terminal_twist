@@ -9,9 +9,11 @@ class Player
     def win(points = 1)
         @points += points
         puts Rainbow('Correct').lightgreen
+        #puts Rainbow('take a shot').lightgreen
     end
     def lose
         puts Rainbow('Incorrect').darkred
+        #puts Rainbow ('take 2 shots').darkred
     end
 end
 
