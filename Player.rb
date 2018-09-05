@@ -1,3 +1,4 @@
+require 'rainbow'
 class Player 
    attr_accessor :name, :points, :speed
     def initialize(name)
@@ -7,10 +8,10 @@ class Player
     end
     def win(points = 1)
         @points += points
-        puts 'You won!'
+        puts Rainbow('Correct').lightgreen
     end
     def lose
-        puts 'You lost!'
+        puts Rainbow('Incorrect').darkred
     end
 end
 
