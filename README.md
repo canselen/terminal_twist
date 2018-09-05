@@ -20,15 +20,15 @@ How many vowels are in Rick Sanchez?
 correct
 ```
 ### Screenshots
-![Game1](https://github.com/jamesphongduong/terminal/blob/master/resources/Game%201.png)
-![Game2](https://github.com/jamesphongduong/terminal/blob/master/resources/Game%202.png)
-![Game3](https://github.com/jamesphongduong/terminal/blob/master/resources/Game%203.png)
+![Game1](https://github.com/jamesphongduong/terminal/blob/master/Resources/Game%201.png)
+![Game2](https://github.com/jamesphongduong/terminal/blob/master/Resources/Game%202.png)
+![Game3](https://github.com/jamesphongduong/terminal/blob/master/Resources/Game%203.png)
 
 ## Details of design & planning process
 ### Evidence of app idea brainstorming sessions
-![Image of Brainstorm Notes](https://github.com/jamesphongduong/terminal/blob/master/resources/Brainstorm%20ideas.png)
+![Image of Brainstorm Notes](https://github.com/jamesphongduong/terminal/blob/master/Resources/Brainstorm%20ideas.png)
 ### App User/Workflow diagram
-![Image of Workflow Diagram](https://github.com/jamesphongduong/terminal/blob/master/resources/Workflow%20Diagram.png)
+![Image of Workflow Diagram](https://github.com/jamesphongduong/terminal/blob/master/Resources/Workflow%20Diagram.png)
 ### Project Plan & Timeline
 #### Day 1.
 Brainstorm application ideas and discuss and decide the best idea, i.e. simple to implement, but also can utilize our learnings of classes.
@@ -41,6 +41,5 @@ Following the pseudo code, start pair programming and be able to produce a MVP a
 Add extra features on the application, making cosmetic changes, implementing more gems and plan presentation. 
 
 ### Screenshots of Trello Board(s)
-![Trello Board](https://github.com/jamesphongduong/terminal/blob/master/resources/Trello.png)
-
-![Trello Board Tabs](https://github.com/jamesphongduong/terminal/blob/master/resources/Trello2.png)
+![Trello Board](https://github.com/jamesphongduong/terminal/blob/master/Resources/Trello.png)
+![Trello Board Tabs](https://github.com/jamesphongduong/terminal/blob/master/Resources/Trello2.png)
