@@ -1,0 +1,39 @@
+#GAME
+# Name: Terminal-twist
+# Starts with a Welcome message and explains the game rules in 4 paragraphs
+
+
+
+#QUESTIONS
+# Game should be made from variety of challanges and quizes
+# Both methods and faker gem should be used to create questions in these challanges
+# An amount of time should be assign for each task, out off time should mean failier of the task given
+# Challenges made with faker should be of popular subjects
+
+
+#TOOK OUT 
+# Keeps and adds points to the names through out the game
+# Inputs names, stops till you ask it to stop asking names 
+# Determines a win and lose by scaling the ponts earned
+# Assign randomize rewards and punishments - according to the points
+# Have levels/episodes in the game so and game results can be proceeed
+# Puts more drinking in to challenges for players who have higher wining or losing rate
+# Winning or losing is determened by point scale
+# Every episode/level should ask about a level of drink vol accomplished or assign a drinking volume before the set of question are asked
+
+#OPTIONALS
+# Topic quize challanges
+# Visual effects
+# Visual design and coloring
+# Inter active options
+# Open ended tasks
+
+#HACKS
+# A personilized key should be add in to game that would create instant succsess in the challanges
+# The key should be between 8 characters and should avoid including a number
+
+
+# GEMS USED 
+#faker gem
+# METHODS USED 
+# .reverse .length .downto .count .sub
